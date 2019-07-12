@@ -1,0 +1,5 @@
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\Debug\XiaomiLib.XML
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\Debug\XiaomiLib.dll
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\Debug\XiaomiLib.pdb
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\obj\Debug\XiaomiLib.dll
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\obj\Debug\XiaomiLib.pdb

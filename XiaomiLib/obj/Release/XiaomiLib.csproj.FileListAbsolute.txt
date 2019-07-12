@@ -1,0 +1,13 @@
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\Release\XiaomiLib.dll
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.dll
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\Release\XiaomiLib.XML
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\Release\XiaomiLib.pdb
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.pdb
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.csprojResolveAssemblyReference.cache
+F:\program\MIUI\AndroidLib\XiaomiLib\bin\Release\XiaomiLib.XML
+F:\program\MIUI\AndroidLib\XiaomiLib\bin\Release\XiaomiLib.dll
+F:\program\MIUI\AndroidLib\XiaomiLib\bin\Release\XiaomiLib.pdb
+F:\program\MIUI\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.csprojAssemblyReference.cache
+F:\program\MIUI\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.csproj.CoreCompileInputs.cache
+F:\program\MIUI\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.dll
+F:\program\MIUI\AndroidLib\XiaomiLib\obj\Release\XiaomiLib.pdb

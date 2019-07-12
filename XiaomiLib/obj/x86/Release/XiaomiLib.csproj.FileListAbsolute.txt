@@ -1,0 +1,2 @@
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\bin\x86\Release\XiaomiLib.dll
+F:\program\MIUI\dev\AndroidLib\XiaomiLib\obj\x86\Release\XiaomiLib.dll

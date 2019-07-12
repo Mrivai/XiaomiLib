@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5F92F16-C783-4B17-B725-B06F1D725B9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mrivai.Pelitabangsa</RootNamespace>
+    <AssemblyName>XiaomiLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\XiaomiLib.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\XiaomiLib.XML</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\XiaomiLib.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\XiaomiLib.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\XiaomiLib.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AAPT\AAPT.cs" />
+    <Compile Include="Classes\AAPT\AAPT.Dump.cs" />
+    <Compile Include="Classes\Modul\CommandPacket.cs" />
+    <Compile Include="Classes\Modul\Firehose.cs" />
+    <Compile Include="Classes\Modul\FlashType.cs" />
+    <Compile Include="Classes\Modul\Programmer.cs" />
+    <Compile Include="Classes\Modul\Sahara.cs" />
+    <Compile Include="Classes\Modul\sahara_64b_readdata_packet.cs" />
+    <Compile Include="Classes\Modul\sahara_done_response.cs" />
+    <Compile Include="Classes\Modul\sahara_end_transfer_packet.cs" />
+    <Compile Include="Classes\Modul\sahara_hello_packet.cs" />
+    <Compile Include="Classes\Modul\sahara_hello_response.cs" />
+    <Compile Include="Classes\Modul\sahara_packet.cs" />
+    <Compile Include="Classes\Modul\sahara_readdata_packet.cs" />
+    <Compile Include="Classes\Modul\sahara_switch_Mode_packet.cs" />
+    <Compile Include="Classes\Modul\SoftwareImage.cs" />
+    <Compile Include="Classes\Modul\Sparse.cs" />
+    <Compile Include="Classes\Modul\SparseChunkHeader.cs" />
+    <Compile Include="Classes\Modul\SparseImageHeader.cs" />
+    <Compile Include="Classes\Modul\Storage.cs" />
+    <Compile Include="Classes\Util\Banner.cs" />
+    <Compile Include="Classes\Util\Comm.cs" />
+    <Compile Include="Classes\Util\CommandFormat.cs" />
+    <Compile Include="Classes\Util\Driver.cs" />
+    <Compile Include="Classes\Util\FileSearcher.cs" />
+    <Compile Include="Classes\Util\FileTransfer.cs" />
+    <Compile Include="Classes\Util\InputEvent.cs" />
+    <Compile Include="Classes\Util\KeyCodes.cs" />
+    <Compile Include="Classes\Util\Message.cs" />
+    <Compile Include="Classes\Util\MiDriver.cs" />
+    <Compile Include="Classes\Util\MinicapStream.cs" />
+    <Compile Include="Classes\Util\SocketData.cs" />
+    <Compile Include="Classes\XiaomiController\Adb.cs" />
+    <Compile Include="Classes\XiaomiController\Apps.cs" />
+    <Compile Include="Classes\XiaomiController\BootImg.cs" />
+    <Compile Include="Classes\XiaomiController\BusyBox.cs" />
+    <Compile Include="Classes\XiaomiController\BatteryInfo.cs" />
+    <Compile Include="Classes\XiaomiController\ClientServer.cs" />
+    <Compile Include="Classes\XiaomiController\Device.cs" />
+    <Compile Include="Classes\XiaomiController\Flash.cs" />
+    <Compile Include="Classes\XiaomiController\Info.cs" />
+    <Compile Include="Classes\XiaomiController\Miuidl.cs" />
+    <Compile Include="Classes\XiaomiController\Monkey.cs" />
+    <Compile Include="Classes\XiaomiController\Ngrok.cs" />
+    <Compile Include="Classes\XiaomiController\Phone.cs" />
+    <Compile Include="Classes\XiaomiController\XiaomiController.cs" />
+    <Compile Include="Classes\XiaomiController\BuildProp.cs" />
+    <Compile Include="Classes\Util\Extract.cs" />
+    <Compile Include="Classes\Util\Hasher.cs" />
+    <Compile Include="Classes\XiaomiController\Fastboot.cs" />
+    <Compile Include="Classes\XiaomiController\FileSystem.cs" />
+    <Compile Include="Classes\XiaomiController\Enums.cs" />
+    <Compile Include="Classes\XiaomiController\Exceptions.cs" />
+    <Compile Include="Classes\Util\Java.cs" />
+    <Compile Include="Classes\Util\Logger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Util\Util.cs" />
+    <Compile Include="Classes\Util\Command.cs" />
+    <Compile Include="Classes\XiaomiController\Su.cs" />
+    <Compile Include="Classes\Signer\Signer.cs" />
+    <Compile Include="Classes\Util\ResourceFolderManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\adb.exe" />
+    <EmbeddedResource Include="Resources\XiaomiController\AdbWinApi.dll" />
+    <EmbeddedResource Include="Resources\XiaomiController\AdbWinUsbApi.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Other\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\edl.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Signer\testkey.pk8" />
+    <EmbeddedResource Include="Resources\Signer\testkey.x509.pem" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\fastboot.exe" />
+    <EmbeddedResource Include="Resources\Signer\signapk.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AAPT\aapt.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\emmcdl.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\prog_emmc_firehose_8976_ddr.mbn" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\lsusb.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\bootimg.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\Key.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\XiaomiController\ngrok.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
